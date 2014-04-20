@@ -1,0 +1,6 @@
+
+/* Class = "IBUILabel"; text = "tap three times to dismiss"; ObjectID = "QbS-P3-aHq"; */
+"QbS-P3-aHq.text" = "连续点击三次退出";
+
+/* Class = "IBUIButton"; normalTitle = "Capture"; ObjectID = "gHh-lA-4gd"; */
+"gHh-lA-4gd.normalTitle" = "拍照";

@@ -1,0 +1,57 @@
+
+/* Class = "IBUILabel"; text = "maye634028187@icloud.com"; ObjectID = "21G-K1-V5X"; */
+"21G-K1-V5X.text" = "maye634028187@icloud.com";
+
+/* Class = "IBUILabel"; text = "Candid camera"; ObjectID = "3wu-0w-jRa"; */
+"3wu-0w-jRa.text" = "偷拍相机";
+
+/* Class = "IBUILabel"; text = "divide image to suit to some photo sharing software"; ObjectID = "E2y-zb-KCy"; */
+"E2y-zb-KCy.text" = "切分图片来适合一些图片分享软件";
+
+/* Class = "IBUINavigationItem"; title = "Candid"; ObjectID = "LQE-Cz-Xtx"; */
+"LQE-Cz-Xtx.title" = "偷拍";
+
+/* Class = "IBUILabel"; text = "you can have a look if you have spare time"; ObjectID = "Yzt-r8-gCu"; */
+"Yzt-r8-gCu.text" = "如果有时间的话，可以看一下。";
+
+/* Class = "IBUIBarButtonItem"; title = "Clear"; ObjectID = "Zh8-op-bsR"; */
+"Zh8-op-bsR.title" = "清空";
+
+/* Class = "IBUINavigationItem"; title = "Preview"; ObjectID = "aLQ-Wp-mlJ"; */
+"aLQ-Wp-mlJ.title" = "预览";
+
+/* Class = "IBUINavigationItem"; title = "Letter"; ObjectID = "aky-im-0Ui"; */
+"aky-im-0Ui.title" = "信";
+
+/* Class = "IBUIBarButtonItem"; title = "Leave message"; ObjectID = "cxG-sC-cPj"; */
+"cxG-sC-cPj.title" = "留言";
+
+/* Class = "IBUINavigationItem"; title = "Divide"; ObjectID = "kZW-qb-wJt"; */
+"kZW-qb-wJt.title" = "切分图片";
+
+/* Class = "IBUILabel"; text = "pay attention to sound off when use this capture"; ObjectID = "khv-rH-v1b"; */
+"khv-rH-v1b.text" = "拍照的时候是有快门声音的，近距离拍照最好把声音关掉。";
+
+/* Class = "IBUILabel"; text = "Divide image"; ObjectID = "ksh-sQ-LPk"; */
+"ksh-sQ-LPk.text" = "切分图片";
+
+/* Class = "IBUIBarButtonItem"; title = "Save"; ObjectID = "lEQ-lB-MCk"; */
+"lEQ-lB-MCk.title" = "保存";
+
+/* Class = "IBUISegmentedControl"; ndX-QU-KMa.segmentTitles[0] = "Enable rear device"; ObjectID = "ndX-QU-KMa"; */
+"ndX-QU-KMa.segmentTitles[0]" = "启动后置摄像头";
+
+/* Class = "IBUISegmentedControl"; ndX-QU-KMa.segmentTitles[1] = "Enable front device"; ObjectID = "ndX-QU-KMa"; */
+"ndX-QU-KMa.segmentTitles[1]" = "启动前置摄像头";
+
+/* Class = "IBUIBarButtonItem"; title = "Save"; ObjectID = "swd-Dp-ZmI"; */
+"swd-Dp-ZmI.title" = "保存";
+
+/* Class = "IBUILabel"; text = "        Hi friends, My sister share a photo with look like be divided nine parts on Wechat, until only we click the photo aware this is a spoof, I decide to developing an app beacuse I can not found the better way. I hope to coding more function in this app,  you could sharing your idea with me if the idea easy and amusing, I will do in my spare time. It's not so easy for develping an app as some people thought. Too many trouble may be not considered before you developing. Of course , if you are a developer and willing sharing your program you could send me your by e-mail too, Thank you for your reading."; ObjectID = "uOc-Ux-Nok"; */
+"uOc-Ux-Nok.text" = "        你好，朋友们！我做了两个小应用，因为太小了，我就把它们两个合并成了一个。我想做个小应用的集合，放一些简单并且有趣的功能，如果你有什么好的建议可以给我留言，只要确实有趣并且不复杂，我会在有空的时候去做。其实制作一款应用要考虑的东西很多，并不像很多人所想的那么简单，而且很多问题不是事前就能考虑到的，要么怎么会有那么多的白毛程序猿。当然如果有程序猿朋友愿意把自己业余时间做的又上不了app store的小东西，跟大家分享，我也很乐意，以下是我邮箱，随时可以联系。";
+
+/* Class = "IBUINavigationItem"; title = "Rucksack"; ObjectID = "x5t-Pz-Lt6"; */
+"x5t-Pz-Lt6.title" = "小背包";
+
+/* Class = "IBUILabel"; text = "A letter to user"; ObjectID = "zEV-S9-AJh"; */
+"zEV-S9-AJh.text" = "致用户的一封信";

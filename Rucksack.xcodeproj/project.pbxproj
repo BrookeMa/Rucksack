@@ -21,6 +21,25 @@
 		6E1933E318D40A41003FB811 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1933C518D40A41003FB811 /* UIKit.framework */; };
 		6E1933EB18D40A41003FB811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E1933E918D40A41003FB811 /* InfoPlist.strings */; };
 		6E1933ED18D40A41003FB811 /* RucksackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1933EC18D40A41003FB811 /* RucksackTests.m */; };
+		6E1933FC18D40A74003FB811 /* HFImageEditorFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1933F818D40A74003FB811 /* HFImageEditorFrameView.m */; };
+		6E1933FD18D40A74003FB811 /* HFImageEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1933FA18D40A74003FB811 /* HFImageEditorViewController.m */; };
+		6E19340118D40AAB003FB811 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E19340018D40AAB003FB811 /* DejalActivityView.m */; };
+		6E19340618D414EB003FB811 /* UIImage+CWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E19340418D414EB003FB811 /* UIImage+CWAdditions.m */; };
+		6E19340D18D4152B003FB811 /* CandidCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E19340A18D4152B003FB811 /* CandidCollectionViewCell.m */; };
+		6E19340E18D4152B003FB811 /* RucksackCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E19340C18D4152B003FB811 /* RucksackCollectionViewCell.m */; };
+		6E19341318D41601003FB811 /* CandidCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E19341218D41601003FB811 /* CandidCameraViewController.m */; };
+		6E19341618D41610003FB811 /* CandidShowPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E19341518D41610003FB811 /* CandidShowPhotoViewController.m */; };
+		6E19341A18D4162B003FB811 /* DivideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E19341918D4162B003FB811 /* DivideViewController.m */; };
+		6E19341D18D41639003FB811 /* DivideImageEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E19341C18D41639003FB811 /* DivideImageEditor.m */; };
+		6E8E628618EC54EF0073C9BD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8E628818EC54EF0073C9BD /* Main_iPad.storyboard */; };
+		6EC4012018ED776100F2E32A /* DivideImageEditor_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC4012218ED776100F2E32A /* DivideImageEditor_iPad.xib */; };
+		6EC4012718ED90E900F2E32A /* CameraOverlayView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC4012918ED90E900F2E32A /* CameraOverlayView_iPad.xib */; };
+		6ECE44A918D43AD400213CF1 /* CandidCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE44A818D43AD400213CF1 /* CandidCollectionReusableView.m */; };
+		6ECE44B118D43F1000213CF1 /* CandidCameraViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE44B318D43F1000213CF1 /* CandidCameraViewController.strings */; };
+		6ECE44B618D43F1D00213CF1 /* DivideViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE44B818D43F1D00213CF1 /* DivideViewController.strings */; };
+		6ECE44BD18D440EC00213CF1 /* CameraOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE44BF18D440EC00213CF1 /* CameraOverlayView.xib */; };
+		6ECE44C418D441F800213CF1 /* DivideImageEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE44C618D441F800213CF1 /* DivideImageEditor.xib */; };
+		6ECE44DF18D4722300213CF1 /* LetterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE44DE18D4722300213CF1 /* LetterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6E1933BE18D40A41003FB811 /* Rucksack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rucksack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1933BE18D40A41003FB811 /* rucksack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rucksack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E1933C118D40A41003FB811 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6E1933C318D40A41003FB811 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6E1933C518D40A41003FB811 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -53,6 +72,50 @@
 		6E1933E818D40A41003FB811 /* RucksackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RucksackTests-Info.plist"; sourceTree = "<group>"; };
 		6E1933EA18D40A41003FB811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E1933EC18D40A41003FB811 /* RucksackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RucksackTests.m; sourceTree = "<group>"; };
+		6E1933F718D40A74003FB811 /* HFImageEditorFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFImageEditorFrameView.h; sourceTree = "<group>"; };
+		6E1933F818D40A74003FB811 /* HFImageEditorFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFImageEditorFrameView.m; sourceTree = "<group>"; };
+		6E1933F918D40A74003FB811 /* HFImageEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFImageEditorViewController.h; sourceTree = "<group>"; };
+		6E1933FA18D40A74003FB811 /* HFImageEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFImageEditorViewController.m; sourceTree = "<group>"; };
+		6E1933FB18D40A74003FB811 /* HFImageEditorViewController+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HFImageEditorViewController+Private.h"; sourceTree = "<group>"; };
+		6E1933FF18D40AAB003FB811 /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
+		6E19340018D40AAB003FB811 /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
+		6E19340318D414EB003FB811 /* UIImage+CWAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CWAdditions.h"; sourceTree = "<group>"; };
+		6E19340418D414EB003FB811 /* UIImage+CWAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CWAdditions.m"; sourceTree = "<group>"; };
+		6E19340518D414EB003FB811 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		6E19340918D4152B003FB811 /* CandidCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandidCollectionViewCell.h; sourceTree = "<group>"; };
+		6E19340A18D4152B003FB811 /* CandidCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandidCollectionViewCell.m; sourceTree = "<group>"; };
+		6E19340B18D4152B003FB811 /* RucksackCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RucksackCollectionViewCell.h; sourceTree = "<group>"; };
+		6E19340C18D4152B003FB811 /* RucksackCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RucksackCollectionViewCell.m; sourceTree = "<group>"; };
+		6E19341118D41601003FB811 /* CandidCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandidCameraViewController.h; sourceTree = "<group>"; };
+		6E19341218D41601003FB811 /* CandidCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandidCameraViewController.m; sourceTree = "<group>"; };
+		6E19341418D41610003FB811 /* CandidShowPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandidShowPhotoViewController.h; sourceTree = "<group>"; };
+		6E19341518D41610003FB811 /* CandidShowPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandidShowPhotoViewController.m; sourceTree = "<group>"; };
+		6E19341818D4162B003FB811 /* DivideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivideViewController.h; sourceTree = "<group>"; };
+		6E19341918D4162B003FB811 /* DivideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivideViewController.m; sourceTree = "<group>"; };
+		6E19341B18D41639003FB811 /* DivideImageEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivideImageEditor.h; sourceTree = "<group>"; };
+		6E19341C18D41639003FB811 /* DivideImageEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivideImageEditor.m; sourceTree = "<group>"; };
+		6E6DCB0618D6F7BC005D7AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E8E628718EC54EF0073C9BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		6E8E628A18EC54F20073C9BD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main_iPad.strings"; sourceTree = "<group>"; };
+		6EC4012118ED776100F2E32A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DivideImageEditor_iPad.xib; sourceTree = "<group>"; };
+		6EC4012418ED776700F2E32A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DivideImageEditor_iPad.strings"; sourceTree = "<group>"; };
+		6EC4012818ED90E900F2E32A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CameraOverlayView_iPad.xib; sourceTree = "<group>"; };
+		6EC4012B18ED90EC00F2E32A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CameraOverlayView_iPad.strings"; sourceTree = "<group>"; };
+		6ECE44A718D43AD400213CF1 /* CandidCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandidCollectionReusableView.h; sourceTree = "<group>"; };
+		6ECE44A818D43AD400213CF1 /* CandidCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandidCollectionReusableView.m; sourceTree = "<group>"; };
+		6ECE44AE18D43F0600213CF1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		6ECE44AF18D43F0600213CF1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6ECE44B018D43F0600213CF1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6ECE44B218D43F1000213CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/CandidCameraViewController.strings; sourceTree = "<group>"; };
+		6ECE44B418D43F1300213CF1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CandidCameraViewController.strings"; sourceTree = "<group>"; };
+		6ECE44B718D43F1D00213CF1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DivideViewController.strings"; sourceTree = "<group>"; };
+		6ECE44B918D43F2100213CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/DivideViewController.strings; sourceTree = "<group>"; };
+		6ECE44BE18D440EC00213CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CameraOverlayView.xib; sourceTree = "<group>"; };
+		6ECE44C518D441F800213CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DivideImageEditor.xib; sourceTree = "<group>"; };
+		6ECE44CD18D469CB00213CF1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DivideImageEditor.strings"; sourceTree = "<group>"; };
+		6ECE44CE18D469D200213CF1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CameraOverlayView.strings"; sourceTree = "<group>"; };
+		6ECE44DD18D4722300213CF1 /* LetterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetterViewController.h; sourceTree = "<group>"; };
+		6ECE44DE18D4722300213CF1 /* LetterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +142,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E0657C618EBCED900CA831E /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				6E8E628818EC54EF0073C9BD /* Main_iPad.storyboard */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		6E1933B518D40A41003FB811 = {
 			isa = PBXGroup;
 			children = (
@@ -88,11 +159,12 @@
 				6E1933BF18D40A41003FB811 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		6E1933BF18D40A41003FB811 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E1933BE18D40A41003FB811 /* Rucksack.app */,
+				6E1933BE18D40A41003FB811 /* rucksack.app */,
 				6E1933DF18D40A41003FB811 /* RucksackTests.xctest */,
 			);
 			name = Products;
@@ -112,9 +184,14 @@
 		6E1933C718D40A41003FB811 /* Rucksack */ = {
 			isa = PBXGroup;
 			children = (
-				6E1933D018D40A41003FB811 /* AppDelegate.h */,
-				6E1933D118D40A41003FB811 /* AppDelegate.m */,
+				6E0657C618EBCED900CA831E /* iPad */,
+				6E19340F18D415C3003FB811 /* ViewController */,
+				6E19340718D414F7003FB811 /* View */,
+				6E19340318D414EB003FB811 /* UIImage+CWAdditions.h */,
+				6E19340418D414EB003FB811 /* UIImage+CWAdditions.m */,
+				6E19340518D414EB003FB811 /* Utility.h */,
 				6E1933D318D40A41003FB811 /* Main.storyboard */,
+				6E19340218D40AAF003FB811 /* Resource */,
 				6E1933D618D40A41003FB811 /* ViewController.h */,
 				6E1933D718D40A41003FB811 /* ViewController.m */,
 				6E1933D918D40A41003FB811 /* Images.xcassets */,
@@ -126,6 +203,8 @@
 		6E1933C818D40A41003FB811 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6E1933D018D40A41003FB811 /* AppDelegate.h */,
+				6E1933D118D40A41003FB811 /* AppDelegate.m */,
 				6E1933C918D40A41003FB811 /* Rucksack-Info.plist */,
 				6E1933CA18D40A41003FB811 /* InfoPlist.strings */,
 				6E1933CD18D40A41003FB811 /* main.m */,
@@ -152,6 +231,112 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6E1933F618D40A65003FB811 /* HFImageEditor */ = {
+			isa = PBXGroup;
+			children = (
+				6E1933F718D40A74003FB811 /* HFImageEditorFrameView.h */,
+				6E1933F818D40A74003FB811 /* HFImageEditorFrameView.m */,
+				6E1933F918D40A74003FB811 /* HFImageEditorViewController.h */,
+				6E1933FA18D40A74003FB811 /* HFImageEditorViewController.m */,
+				6E1933FB18D40A74003FB811 /* HFImageEditorViewController+Private.h */,
+			);
+			name = HFImageEditor;
+			sourceTree = "<group>";
+		};
+		6E1933FE18D40A87003FB811 /* DejalActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				6E1933FF18D40AAB003FB811 /* DejalActivityView.h */,
+				6E19340018D40AAB003FB811 /* DejalActivityView.m */,
+			);
+			name = DejalActivityView;
+			sourceTree = "<group>";
+		};
+		6E19340218D40AAF003FB811 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6E1933FE18D40A87003FB811 /* DejalActivityView */,
+				6E1933F618D40A65003FB811 /* HFImageEditor */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		6E19340718D414F7003FB811 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6ECE44A718D43AD400213CF1 /* CandidCollectionReusableView.h */,
+				6ECE44A818D43AD400213CF1 /* CandidCollectionReusableView.m */,
+				6ECE44A218D43A5100213CF1 /* Xib */,
+				6E19340818D41512003FB811 /* Cell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6E19340818D41512003FB811 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6E19340918D4152B003FB811 /* CandidCollectionViewCell.h */,
+				6E19340A18D4152B003FB811 /* CandidCollectionViewCell.m */,
+				6E19340B18D4152B003FB811 /* RucksackCollectionViewCell.h */,
+				6E19340C18D4152B003FB811 /* RucksackCollectionViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		6E19340F18D415C3003FB811 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6ECE44DC18D471DB00213CF1 /* Letter */,
+				6E19341718D41615003FB811 /* Divide */,
+				6E19341018D415F5003FB811 /* Candid Camera */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		6E19341018D415F5003FB811 /* Candid Camera */ = {
+			isa = PBXGroup;
+			children = (
+				6E19341418D41610003FB811 /* CandidShowPhotoViewController.h */,
+				6E19341518D41610003FB811 /* CandidShowPhotoViewController.m */,
+				6E19341118D41601003FB811 /* CandidCameraViewController.h */,
+				6E19341218D41601003FB811 /* CandidCameraViewController.m */,
+				6ECE44B318D43F1000213CF1 /* CandidCameraViewController.strings */,
+			);
+			name = "Candid Camera";
+			sourceTree = "<group>";
+		};
+		6E19341718D41615003FB811 /* Divide */ = {
+			isa = PBXGroup;
+			children = (
+				6E19341B18D41639003FB811 /* DivideImageEditor.h */,
+				6E19341C18D41639003FB811 /* DivideImageEditor.m */,
+				6E19341818D4162B003FB811 /* DivideViewController.h */,
+				6E19341918D4162B003FB811 /* DivideViewController.m */,
+				6ECE44B818D43F1D00213CF1 /* DivideViewController.strings */,
+			);
+			name = Divide;
+			sourceTree = "<group>";
+		};
+		6ECE44A218D43A5100213CF1 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				6ECE44C618D441F800213CF1 /* DivideImageEditor.xib */,
+				6EC4012218ED776100F2E32A /* DivideImageEditor_iPad.xib */,
+				6ECE44BF18D440EC00213CF1 /* CameraOverlayView.xib */,
+				6EC4012918ED90E900F2E32A /* CameraOverlayView_iPad.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		6ECE44DC18D471DB00213CF1 /* Letter */ = {
+			isa = PBXGroup;
+			children = (
+				6ECE44DD18D4722300213CF1 /* LetterViewController.h */,
+				6ECE44DE18D4722300213CF1 /* LetterViewController.m */,
+			);
+			name = Letter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,7 +354,7 @@
 			);
 			name = Rucksack;
 			productName = Rucksack;
-			productReference = 6E1933BE18D40A41003FB811 /* Rucksack.app */;
+			productReference = 6E1933BE18D40A41003FB811 /* rucksack.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6E1933DE18D40A41003FB811 /* RucksackTests */ = {
@@ -199,6 +384,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = MaYe;
 				TargetAttributes = {
+					6E1933BD18D40A41003FB811 = {
+						DevelopmentTeam = 5BYAKJUWWL;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
 					6E1933DE18D40A41003FB811 = {
 						TestTargetID = 6E1933BD18D40A41003FB811;
 					};
@@ -211,6 +404,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				ja,
 			);
 			mainGroup = 6E1933B518D40A41003FB811;
 			productRefGroup = 6E1933BF18D40A41003FB811 /* Products */;
@@ -228,9 +423,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ECE44BD18D440EC00213CF1 /* CameraOverlayView.xib in Resources */,
 				6E1933DA18D40A41003FB811 /* Images.xcassets in Resources */,
 				6E1933CC18D40A41003FB811 /* InfoPlist.strings in Resources */,
+				6EC4012018ED776100F2E32A /* DivideImageEditor_iPad.xib in Resources */,
+				6ECE44C418D441F800213CF1 /* DivideImageEditor.xib in Resources */,
 				6E1933D518D40A41003FB811 /* Main.storyboard in Resources */,
+				6E8E628618EC54EF0073C9BD /* Main_iPad.storyboard in Resources */,
+				6ECE44B618D43F1D00213CF1 /* DivideViewController.strings in Resources */,
+				6EC4012718ED90E900F2E32A /* CameraOverlayView_iPad.xib in Resources */,
+				6ECE44B118D43F1000213CF1 /* CandidCameraViewController.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +451,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E19340118D40AAB003FB811 /* DejalActivityView.m in Sources */,
+				6E19340E18D4152B003FB811 /* RucksackCollectionViewCell.m in Sources */,
+				6E19341618D41610003FB811 /* CandidShowPhotoViewController.m in Sources */,
+				6E19341318D41601003FB811 /* CandidCameraViewController.m in Sources */,
+				6ECE44DF18D4722300213CF1 /* LetterViewController.m in Sources */,
+				6E1933FD18D40A74003FB811 /* HFImageEditorViewController.m in Sources */,
+				6E19341A18D4162B003FB811 /* DivideViewController.m in Sources */,
+				6ECE44A918D43AD400213CF1 /* CandidCollectionReusableView.m in Sources */,
 				6E1933D818D40A41003FB811 /* ViewController.m in Sources */,
+				6E1933FC18D40A74003FB811 /* HFImageEditorFrameView.m in Sources */,
+				6E19341D18D41639003FB811 /* DivideImageEditor.m in Sources */,
+				6E19340618D414EB003FB811 /* UIImage+CWAdditions.m in Sources */,
 				6E1933D218D40A41003FB811 /* AppDelegate.m in Sources */,
 				6E1933CE18D40A41003FB811 /* main.m in Sources */,
+				6E19340D18D4152B003FB811 /* CandidCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +492,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				6E1933CB18D40A41003FB811 /* en */,
+				6ECE44AF18D43F0600213CF1 /* zh-Hans */,
+				6E6DCB0618D6F7BC005D7AE3 /* Base */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -286,16 +502,82 @@
 			isa = PBXVariantGroup;
 			children = (
 				6E1933D418D40A41003FB811 /* Base */,
+				6ECE44AE18D43F0600213CF1 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		6E1933E918D40A41003FB811 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6E1933EA18D40A41003FB811 /* en */,
+				6ECE44B018D43F0600213CF1 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E8E628818EC54EF0073C9BD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E8E628718EC54EF0073C9BD /* Base */,
+				6E8E628A18EC54F20073C9BD /* zh-Hans */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6EC4012218ED776100F2E32A /* DivideImageEditor_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EC4012118ED776100F2E32A /* Base */,
+				6EC4012418ED776700F2E32A /* zh-Hans */,
+			);
+			name = DivideImageEditor_iPad.xib;
+			sourceTree = "<group>";
+		};
+		6EC4012918ED90E900F2E32A /* CameraOverlayView_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EC4012818ED90E900F2E32A /* Base */,
+				6EC4012B18ED90EC00F2E32A /* zh-Hans */,
+			);
+			name = CameraOverlayView_iPad.xib;
+			sourceTree = "<group>";
+		};
+		6ECE44B318D43F1000213CF1 /* CandidCameraViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECE44B218D43F1000213CF1 /* Base */,
+				6ECE44B418D43F1300213CF1 /* zh-Hans */,
+			);
+			name = CandidCameraViewController.strings;
+			sourceTree = "<group>";
+		};
+		6ECE44B818D43F1D00213CF1 /* DivideViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECE44B718D43F1D00213CF1 /* zh-Hans */,
+				6ECE44B918D43F2100213CF1 /* Base */,
+			);
+			name = DivideViewController.strings;
+			sourceTree = "<group>";
+		};
+		6ECE44BF18D440EC00213CF1 /* CameraOverlayView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECE44BE18D440EC00213CF1 /* Base */,
+				6ECE44CE18D469D200213CF1 /* zh-Hans */,
+			);
+			name = CameraOverlayView.xib;
+			sourceTree = "<group>";
+		};
+		6ECE44C618D441F800213CF1 /* DivideImageEditor.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECE44C518D441F800213CF1 /* Base */,
+				6ECE44CD18D469CB00213CF1 /* zh-Hans */,
+			);
+			name = DivideImageEditor.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -376,10 +658,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rucksack/Rucksack-Prefix.pch";
 				INFOPLIST_FILE = "Rucksack/Rucksack-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = rucksack;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +676,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rucksack/Rucksack-Prefix.pch";
 				INFOPLIST_FILE = "Rucksack/Rucksack-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = rucksack;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +748,7 @@
 				6E1933F218D40A41003FB811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E1933F318D40A41003FB811 /* Build configuration list for PBXNativeTarget "RucksackTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +757,7 @@
 				6E1933F518D40A41003FB811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

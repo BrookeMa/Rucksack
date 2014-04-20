@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6E1933BD18D40A41003FB811"
-               BuildableName = "Rucksack.app"
+               BuildableName = "rucksack.app"
                BlueprintName = "Rucksack"
                ReferencedContainer = "container:Rucksack.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E1933BD18D40A41003FB811"
-            BuildableName = "Rucksack.app"
+            BuildableName = "rucksack.app"
             BlueprintName = "Rucksack"
             ReferencedContainer = "container:Rucksack.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E1933BD18D40A41003FB811"
-            BuildableName = "Rucksack.app"
+            BuildableName = "rucksack.app"
             BlueprintName = "Rucksack"
             ReferencedContainer = "container:Rucksack.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E1933BD18D40A41003FB811"
-            BuildableName = "Rucksack.app"
+            BuildableName = "rucksack.app"
             BlueprintName = "Rucksack"
             ReferencedContainer = "container:Rucksack.xcodeproj">
          </BuildableReference>

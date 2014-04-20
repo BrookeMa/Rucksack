@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleDisplayName="小背包";
+
+CFBundleName="小背包";

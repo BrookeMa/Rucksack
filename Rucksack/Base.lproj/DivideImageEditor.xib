@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DivideImageEditor">
+            <connections>
+                <outlet property="divideFourButton" destination="sO1-CV-Z4a" id="Wye-RA-lVx"/>
+                <outlet property="divideNineButton" destination="WjR-lg-jaM" id="ep7-dI-CDp"/>
+                <outlet property="divideSixButton" destination="IKd-pE-JQG" id="9Gl-zT-Ut1"/>
+                <outlet property="frameView" destination="LK5-0I-Wna" id="s1R-aY-yd9"/>
+                <outlet property="saveButton" destination="dST-OL-Vr9" id="ToY-hr-08Q"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LK5-0I-Wna" userLabel="Frame" customClass="HFImageEditorFrameView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gsp-CU-Ghx">
+                    <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <items>
+                        <barButtonItem title="Cancel" id="EiA-DW-rJ0">
+                            <connections>
+                                <action selector="cancelAction:" destination="-1" id="2Rp-Ww-8lm"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="53c-xG-SwX"/>
+                        <barButtonItem title="4" id="sO1-CV-Z4a">
+                            <connections>
+                                <action selector="setFourPortraitAction:" destination="-1" id="yRc-Fz-OfW"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem width="22" style="plain" systemItem="fixedSpace" id="Nfi-lf-UWk"/>
+                        <barButtonItem title="6" id="IKd-pE-JQG">
+                            <connections>
+                                <action selector="setSixPortraitAction:" destination="-1" id="tU9-J4-TeN"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem width="22" style="plain" systemItem="fixedSpace" id="bBt-Xq-mDh"/>
+                        <barButtonItem title="9" id="WjR-lg-jaM">
+                            <connections>
+                                <action selector="setNinePortraitAction:" destination="-1" id="fk9-lv-J8K"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="byl-y8-P12"/>
+                        <barButtonItem title="Save" id="dST-OL-Vr9">
+                            <connections>
+                                <action selector="doneAction:" destination="-1" id="n1r-Y4-idl"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="LK5-0I-Wna" firstAttribute="trailing" secondItem="gsp-CU-Ghx" secondAttribute="trailing" id="9af-Kt-3dt"/>
+                <constraint firstItem="gsp-CU-Ghx" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="HHM-YH-49S"/>
+                <constraint firstAttribute="bottom" secondItem="gsp-CU-Ghx" secondAttribute="bottom" id="MbI-t1-NRZ"/>
+                <constraint firstItem="LK5-0I-Wna" firstAttribute="leading" secondItem="gsp-CU-Ghx" secondAttribute="leading" id="QkG-ka-KAb"/>
+                <constraint firstItem="gsp-CU-Ghx" firstAttribute="top" secondItem="LK5-0I-Wna" secondAttribute="bottom" id="jHF-D0-woV"/>
+                <constraint firstAttribute="trailing" secondItem="gsp-CU-Ghx" secondAttribute="trailing" id="plk-LB-HxU"/>
+                <constraint firstItem="LK5-0I-Wna" firstAttribute="top" secondItem="1" secondAttribute="top" id="qP2-aP-OmF"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>
