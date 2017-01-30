@@ -1,3 +1,3 @@
 Rucksack
 ========
-It's my first app, share with new developer to reference
+我的第一款APP
